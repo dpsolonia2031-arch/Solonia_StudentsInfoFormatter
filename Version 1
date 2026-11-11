@@ -1,0 +1,13 @@
+given_name = input("Enter first name: ")
+family_name = input("Enter last name: ")
+class_section = input("Enter section: ")
+subject_choice = input("Enter favorite subject: ")
+
+complete_name = given_name + " " + family_name
+
+print("\nFormatted output:")
+print("Name:", complete_name.title())
+print("Name Code:", complete_name.upper())
+print("Section:", class_section.upper())
+print("Favorite Subject:", subject_choice.title())
+print("Character Count:", len(complete_name))
